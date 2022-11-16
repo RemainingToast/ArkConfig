@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Game.ini
+!GameUserSettings.ini
+!./server/ShooterGame/Saved/Config/LinuxServer/Game.ini
+!./server/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini
