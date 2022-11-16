@@ -5,5 +5,10 @@
 !.gitignore
 !Game.ini
 !GameUserSettings.ini
-!./server/ShooterGame/Saved/Config/LinuxServer/Game.ini
-!./server/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+!*/server/ShooterGame/Saved/Config/LinuxServer/Game.ini
+!*/server/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini
